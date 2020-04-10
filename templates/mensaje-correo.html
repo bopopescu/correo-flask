@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BingoXD Reset Password</title>
+    <style>
+      #padre{display: flex;height:50px;justify-content:center;align-content:center;}
+      #hijo{display: flex;justify-items:center;align-items:center;background-color:#148DDC;width:auto;
+      border-radius: 15px;padding-left: 10px;padding-right:10px;}
+      #hijo:hover{background-color:rgb(19, 65, 95);width:auto;height:50px;}
+      table {display: flex;justify-content: center;}
+     </style>
+</head>
+<body>
+<table>
+  <tbody>
+    <tr>
+      <td>
+       <div style="text-align: center;">
+        <!-- {{ url_for('static', filename='css/bootstrap.min.css') }} -->
+            style="border-top-left-radius:15px;border-top-right-radius: 15px;">
+        </div>
+    </td>
+</tr>
+<tr>
+    <td>
+        <h4 style="text-align: center;color: #148DDC;">HOLA {{ nombres }} {{ apellidos }} </h4>
+        <h5 style="text-align: center;color: #148DDC;">Haz solicitado una nueva clave para ingresar a <a href="http://www.google.cl" style="text-decoration: none;">oli</a></h5>
+        <h5 style="text-align: center;color: #148DDC;">Para generar una nueva contrasena debes ingresar a este enlace:</h5>
+        <br>
+	<a href="https:/direccion/reset-password/{{ link }}">Recuperar clave</a>
+        <!-- <div id="padre">
+            <div  id="hijo">
+                <a href="#" style="text-decoration: none;text-align: center;"><h6 style="color:white;">NUEVA CONTRASENA</h6></a></div>
+           </div> -->
+    </td>
+</tr>
+<tr>
+    <td>
+   <hr>
+   <h6 style="text-align: center;color: #148DDC;">
+    Con tu Cuenta Bingoxd puede utilizarse en:</h6>
+    <div id="foot-juegos" style="display:flex;width:auto;justify-content:center;">
+         style="border-bottom-left-radius:15px;border-bottom-right-radius: 15px;"></div>
+        </div>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+</body>
+</html>
+
